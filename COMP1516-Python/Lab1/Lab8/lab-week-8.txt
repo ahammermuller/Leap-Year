@@ -1,0 +1,25 @@
+countries with ne in the name are:
+Brunei
+Equatorial Guinea
+Federated States of Micronesia
+Guinea
+Guinea-Bissau
+Indonesia
+Montenegro
+Nepal
+Netherlands
+New Zealand
+Papua New Guinea
+Philippines
+Saint Kitts and Nevis
+Saint Vincent and the Grenadines
+Senegal
+Sierra Leone
+Ukraine
+Venezuela
+capitals with city in the name are:
+Guatemala City
+Kuwait City
+Mexico City
+Panama City
+Vatican City
