@@ -1,0 +1,26 @@
+{% extends "home.html" %}
+{% block content %}
+
+<div id="homeUrl">
+    <ul>
+        <li><a href="{{url_for('home')}}">Home</a></li> 
+    </ul> 
+</div>
+<div class="container my-2 py-2">
+<h1>Student Information</h1>
+    <p>Student ID: {{ student.student_id }}</p>
+    <table class="table bg-light">
+        <thead>
+            <tr>
+                <th>Grades</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for grades in student.grades %}
+            <tr>
+                <td>{{grades}}</td>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
